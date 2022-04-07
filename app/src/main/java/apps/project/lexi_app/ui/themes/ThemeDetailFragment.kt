@@ -27,9 +27,13 @@ class ThemeDetailFragment : Fragment() {
         bindAdapter()
         binding.btnTitle.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction()
-                .replace(R.id.container_fragments,TitleThemeFragment())
+                .add(R.id.nav_host_fragment_activity_main,TitleThemeFragment())
                 .addToBackStack(null)
                 .commit()
+        }
+        binding.btnBack.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .remove(this).commit()
         }
     }
 

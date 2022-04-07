@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_gradient"
-
-    tools:context=".ui.myCourses.MyCoursesActivity">
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".ui.myCourses.MyCoursesFragment">
 
     <ImageView
         android:id="@+id/btn_back"
@@ -69,4 +70,5 @@
                 tools:listitem="@layout/item_courses"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

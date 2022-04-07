@@ -23,5 +23,9 @@ class TitleThemeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.btnBack.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .remove(this).commit()
+        }
     }
 }

@@ -3,6 +3,8 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Perfil</string>
+    <string name="title_courses">Mis Cursos</string>
+
     <string name="progress">Progreso</string>
     <string name="achievements">Logros</string>
     <string name="edit_profile">Editar Perfil</string>

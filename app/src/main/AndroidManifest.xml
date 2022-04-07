@@ -12,9 +12,7 @@
         <activity
             android:name=".ui.themes.ThemesCourseActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.myCourses.MyCoursesActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

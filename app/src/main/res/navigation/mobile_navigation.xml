@@ -22,4 +22,9 @@
         android:name="apps.project.lexi_app.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/myCoursesFragment"
+        android:name="apps.project.lexi_app.ui.myCourses.MyCoursesFragment"
+        android:label="fragment_my_courses"
+        tools:layout="@layout/fragment_my_courses" />
 </navigation>
